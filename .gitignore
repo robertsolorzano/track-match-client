@@ -4,9 +4,6 @@
 # Expo
 .expo
 
-# Firebase configuration
-firebaseConfig.js
-
 # Other files to ignore
 .env
 
