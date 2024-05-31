@@ -5,7 +5,7 @@ import DropdownMenu from '../components/DropdownMenu';
 import AudioPlayer from '../components/AudioPlayer';
 import CustomCircle from '../components/CustomCircle';
 import { keyNumberToLetter, modeNumberToMusicalKey, timeNumberToFraction, msToTime } from '../utils/musicUtils';
-import db from '../../firebaseConfig';
+import{ db } from '../../firebaseConfig';
 import { ref, push, query, orderByChild, equalTo, get } from 'firebase/database';
 import { BlurView } from 'expo-blur';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
